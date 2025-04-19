@@ -52,6 +52,32 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				deepPurple: {
+					DEFAULT: '#4C2A85',
+					50: '#F0EAFA',
+					100: '#E0D5F5',
+					200: '#C2ACEB',
+					300: '#A383E0',
+					400: '#855AD6',
+					500: '#6931CC',
+					600: '#5527A3',
+					700: '#4C2A85', // Our primary deep purple
+					800: '#371F60',
+					900: '#22133C'
+				},
+				electricBlue: {
+					DEFAULT: '#0099FF',
+					50: '#E6F5FF',
+					100: '#CCEBFF',
+					200: '#99D6FF',
+					300: '#66C2FF',
+					400: '#33ADFF',
+					500: '#0099FF', // Our electric blue highlight
+					600: '#007ACC',
+					700: '#005C99',
+					800: '#003D66',
+					900: '#001F33'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
