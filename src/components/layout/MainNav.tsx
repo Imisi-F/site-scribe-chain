@@ -32,8 +32,8 @@ export function MainNav() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-2">
           <NavLink to="/" className="flex items-center gap-2 font-semibold text-lg">
-            <span className="text-primary">Site</span>
-            <span className="text-secondary">Scribe</span>
+            <span className="text-primary">True</span>
+            <span className="text-secondary">Trace</span>
           </NavLink>
         </div>
         
