@@ -105,7 +105,7 @@ Compliance officers and commercial teams can:
 
 ## Demo
 
-- 📺 [Demo (Video)](https://youtu.be/your-demo-link)  
+- 📺 [Demo (Video)](https://www.canva.com/design/DAGlKoSrjsQ/P_cbKi-MUBSABXBUmd2RFA/edit?utm_content=DAGlKoSrjsQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
 - 📄 [PDF Report Sample](/src/components/truetrace.pdf)
 
 ---
