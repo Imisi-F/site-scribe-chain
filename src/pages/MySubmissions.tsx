@@ -51,20 +51,24 @@ export default function MySubmissions() {
     : submissions;
 
   // Mock function to generate PDF for download
-  const downloadPDF = async (submission: any) => {
-    setIsDownloading(submission.id);
-    toast.info("Preparing PDF download...");
-    
-    // Simulate PDF generation delay
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
-    toast.success("PDF report generated successfully");
-    setIsDownloading(null);
-    
-    // In a real app, we would generate a PDF and trigger download
-    // For now, just log the action
-    console.log("Downloading PDF for submission:", submission.id);
-  };
+ const downloadPDF = async (submission: any) => {
+  setIsDownloading(submission.id);
+  toast.info("Preparing PDF download...");
+
+  // Simulate delay
+  await new Promise((resolve) => setTimeout(resolve, 1500));
+
+  const link = document.createElement("a");
+  link.href = "@/components/truetrace.pdf";
+  link.download = `truetrace-${submission.id}.pdf`;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+
+  toast.success("PDF report downloaded");
+  setIsDownloading(null);
+};
+
 
   return (
     <div className="space-y-6">
