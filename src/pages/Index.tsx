@@ -8,8 +8,8 @@ export default function Index() {
     <div className="flex flex-col items-center justify-center min-h-[80vh]">
       <div className="text-center mb-10">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          <span className="text-primary">Site</span>
-          <span className="text-secondary">Scribe</span>
+          <span className="text-primary">True</span>
+          <span className="text-secondary">Trace</span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground max-w-xl mx-auto">
           Secure and transparent site inspection reporting with blockchain verification
